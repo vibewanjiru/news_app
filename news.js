@@ -18,8 +18,7 @@ function displayNews(newsList) {
     newsList.forEach(news => {
         const newsCard = document.createElement('div');
         newsCard.classList.add('card');
-        newsCard.style.backgroundImage = `url(${news.image_url || 'https://via.placeholder.com/300x200'})`;
-
+        newsCard.style.backgroundImage = `url(${news.image_url || 'https://img.freepik.com/free-vector/news-concept-illustration_114360-462.jpg?t=st=1717358124~exp=1717361724~hmac=e34113f15cfee8f63c508cf1906bd77ff7007ffaa06eaaac1f0076a057e0237b&w=740'})`;
         const cardContent = document.createElement('div');
         cardContent.classList.add('card-content');
 
